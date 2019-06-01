@@ -33,6 +33,10 @@
   margin-top: 18px;
 }
 
+.card > .content ul > li > i {
+  font-size: 50px;
+}
+
 .card > .remove {
   color: #ff1744;
   font-size: 48px;

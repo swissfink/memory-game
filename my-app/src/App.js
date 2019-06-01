@@ -38,6 +38,7 @@ class App extends Component {
               image={friend.image}
               occupation={friend.occupation}
               location={friend.location}
+              icon={friend.icon}
             />
           ))}
         </Wrapper>

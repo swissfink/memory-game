@@ -12,3 +12,8 @@
   color: #fff;
   padding: 10px;
 }
+
+.footer-text {
+  color: #fff;
+  text-decoration: underline; 
+}
