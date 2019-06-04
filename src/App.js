@@ -1,25 +1,24 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
+import FriendCard from "./components/IconCard";
 import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Jumbotron from "./components/Jumbotron";
 import GameContainer from "./components/GameContainer";
-import friends from "./friends.json";
+import icons from "./icons.json";
 
 class App extends Component {
   
-  
   // Setting this.state.friends to the friends json array
   state = {
-    friends
+    icons
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
+  selectIcon = id => {
+    // Filter this.state.friends for friends with an id not equal to the id being selected
+    const icons = this.state.icons.filter(icon => icon.id !== id);
     // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
+    this.setState({ icons });
   };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
@@ -29,16 +28,12 @@ class App extends Component {
         <Navbar />
         <Jumbotron />
         <Wrapper>
-          {this.state.friends.map(friend => (
+          {this.state.icons.map(icon => (
             <FriendCard
-              removeFriend={this.removeFriend}
-              id={friend.id}
-              key={friend.id}
-              name={friend.name}
-              image={friend.image}
-              occupation={friend.occupation}
-              location={friend.location}
-              icon={friend.icon}
+              selectIcon={this.selectIcon}
+              id={icon.id}
+              key={icon.id}
+              icon={icon.icon}
             />
           ))}
         </Wrapper>

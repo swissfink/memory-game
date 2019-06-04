@@ -1,0 +1,57 @@
+.flip-card {
+  background-color: transparent;
+  border-radius: 5px;
+  height: 100px;
+  width: 100px;
+  margin: 1rem;
+  text-align: center;
+  font-size: 50px;
+  perspective: 1000px;
+}
+
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: .8s;
+  -moz-transition: -moz-transform 1s;
+  transform-style: preserve-3d;
+}
+
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+/* Flip Card Styles */
+.flip-card-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  backface-visibility: hidden;
+  background-color: #2A77AE;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Style the back side */
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: rgb(118, 176, 218);;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+

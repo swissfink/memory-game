@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "icon": "fas fa-dog"
+  },
+  {
+    "id": 2,
+    "icon": "fas fa-cat"
+  },
+  {
+    "id": 3,
+    "icon": "fas fa-hippo"
+  },
+  {
+    "id": 4,
+    "icon": "fas fa-horse"
+  },
+  {
+    "id": 5,
+    "icon": "fas fa-frog"
+  },
+  {
+    "id": 6,
+    "icon": "fas fa-otter"
+  },
+  {
+    "id": 7,  
+    "icon": "fas fa-spider"
+  },
+  {
+    "id": 8,
+    "icon": "fab fa-suse"
+  },
+  {
+    "id": 9,
+    "icon": "fas fa-bug"
+  },
+  {
+    "id": 10,
+    "icon": "fas fa-crow"
+  },
+  {
+    "id": 11,
+    "icon": "fas fa-dove"
+  },
+  {
+    "id": 12,
+    "icon": "fas fa-fish"
+  },
+  {
+    "id": 13,
+    "icon": "fas fa-dog"
+  },
+  {
+    "id": 14,
+    "icon": "fas fa-cat"
+  },
+  {
+    "id": 15,
+    "icon": "fas fa-hippo"
+  },
+  {
+    "id": 16,
+    "icon": "fas fa-horse"
+  },
+  {
+    "id": 17,
+    "icon": "fas fa-frog"
+  },
+  {
+    "id": 18,
+    "icon": "fas fa-otter"
+  },
+  {
+    "id": 19,  
+    "icon": "fas fa-spider"
+  },
+  {
+    "id": 20,
+    "icon": "fab fa-suse"
+  },
+  {
+    "id": 21,
+    "icon": "fas fa-bug"
+  },
+  {
+    "id": 22,
+    "icon": "fas fa-crow"
+  },
+  {
+    "id": 23,
+    "icon": "fas fa-dove"
+  },
+  {
+    "id": 24,
+    "icon": "fas fa-fish"
+  }
+]
