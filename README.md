@@ -2,7 +2,7 @@
 
 A memory game created using React.
 
-![Image of Obit Scraper Landing Page](https://github.com/swissfink/memory-game/blob/master/public/Images/Memory-Game-feautred-image.png)
+![Image of Memory Game Landing Page](https://github.com/swissfink/memory-game/blob/master/public/Images/Memory-Game-feautred-image.png)
 
 
 * The app is deployed using GitHub Pages.
